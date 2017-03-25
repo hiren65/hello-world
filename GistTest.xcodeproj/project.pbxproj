@@ -13,6 +13,7 @@
 		04C4500C1E86926100EF3178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C4500A1E86926100EF3178 /* Main.storyboard */; };
 		04C4500E1E86926100EF3178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C4500D1E86926100EF3178 /* Assets.xcassets */; };
 		04C450111E86926100EF3178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C4500F1E86926100EF3178 /* LaunchScreen.storyboard */; };
+		04C450191E86972400EF3178 /* GistTest in Resources */ = {isa = PBXBuildFile; fileRef = 04C450181E86972400EF3178 /* GistTest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		04C4500D1E86926100EF3178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C450101E86926100EF3178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C450121E86926100EF3178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C450181E86972400EF3178 /* GistTest */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GistTest; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				04C450051E86926100EF3178 /* AppDelegate.m */,
 				04C450071E86926100EF3178 /* ViewController.h */,
 				04C450081E86926100EF3178 /* ViewController.m */,
+				04C450181E86972400EF3178 /* GistTest */,
 				04C4500A1E86926100EF3178 /* Main.storyboard */,
 				04C4500D1E86926100EF3178 /* Assets.xcassets */,
 				04C4500F1E86926100EF3178 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				04C450111E86926100EF3178 /* LaunchScreen.storyboard in Resources */,
 				04C4500E1E86926100EF3178 /* Assets.xcassets in Resources */,
 				04C4500C1E86926100EF3178 /* Main.storyboard in Resources */,
+				04C450191E86972400EF3178 /* GistTest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

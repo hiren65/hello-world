@@ -19,6 +19,8 @@
     
     
     int i = 0;
+    i  = 5+7;
+    NSLog(@"%i",i);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
