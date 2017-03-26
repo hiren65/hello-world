@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "steel.h"
-@interface ViewController : UIViewController<Street>
+#import "myProtocol.h"
+@interface ViewController : UIViewController<Street,MyFlOAT>
 
 
 

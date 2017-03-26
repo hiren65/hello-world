@@ -8,6 +8,10 @@
 
 #ifndef myProtocol_h
 #define myProtocol_h
+@protocol MyFlOAT <NSObject>
 
+-(void)createFloat;
+
+@end
 
 #endif /* myProtocol_h */

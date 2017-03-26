@@ -27,7 +27,7 @@
     [self myFunction];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self createMulti];
+    [self createMulti];[self createFloat];
 }
 
 
@@ -40,5 +40,8 @@
 }
 -(void)createMulti{
     NSLog(@"12");
+}
+-(void)createFloat{
+    NSLog(@"23");
 }
 @end
