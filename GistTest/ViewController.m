@@ -26,6 +26,8 @@
     NSLog(@"%i",i);
     [self myFunction];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self createMulti];
 }
 
 
@@ -36,5 +38,7 @@
 -(void)myFunction{
     NSLog(@"new function");
 }
-
+-(void)createMulti{
+    NSLog(@"12");
+}
 @end

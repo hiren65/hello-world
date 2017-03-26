@@ -17,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046906FF1E8783870087CBAC /* myProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myProtocol.h; sourceTree = "<group>"; };
+		046907001E8783F90087CBAC /* steel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = steel.h; sourceTree = "<group>"; };
 		04C44FFE1E86926100EF3178 /* GistTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GistTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C450021E86926100EF3178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04C450041E86926100EF3178 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +29,7 @@
 		04C4500D1E86926100EF3178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C450101E86926100EF3178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C450121E86926100EF3178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C450181E86972400EF3178 /* GistTest */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GistTest; sourceTree = "<group>"; };
+		04C450181E86972400EF3178 /* GistTest */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GistTest; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,8 @@
 		04C44FF51E86926100EF3178 = {
 			isa = PBXGroup;
 			children = (
+				046907001E8783F90087CBAC /* steel.h */,
+				046906FF1E8783870087CBAC /* myProtocol.h */,
 				04C450001E86926100EF3178 /* GistTest */,
 				04C44FFF1E86926100EF3178 /* Products */,
 			);
@@ -314,6 +318,7 @@
 				04C450171E86926100EF3178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

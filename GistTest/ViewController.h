@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "steel.h"
+@interface ViewController : UIViewController<Street>
 
-@interface ViewController : UIViewController
+
 
 
 @end
