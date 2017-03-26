@@ -20,6 +20,9 @@
     
     int i = 0;
     i  = 5+7;
+    if (i<7) {
+        NSLog(@"ok");
+    }
     NSLog(@"%i",i);
     // Do any additional setup after loading the view, typically from a nib.
 }
