@@ -24,6 +24,7 @@
         NSLog(@"ok");
     }
     NSLog(@"%i",i);
+    [self myFunction];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -32,6 +33,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)myFunction{
+    NSLog(@"new function");
+}
 
 @end
